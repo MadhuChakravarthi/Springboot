@@ -21,8 +21,8 @@ public class MyConnection implements Serializable{
         Connection con=null;
        Class.forName("org.postgresql.Driver");
        
-       con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/bhunaksha","postgres", "root");
-       //con=DriverManager.getConnection("jdbc:postgresql://10.160.19.164/mahila","mahila", "mahila");
+      // con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/bhunaksha","postgres", "root");
+       con=DriverManager.getConnection("jdbc:postgresql://10.160.19.164/mahila","mahila", "mahila");
 
        //  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
        //  con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=shisd","sa","sa123");
